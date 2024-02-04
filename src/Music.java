@@ -57,7 +57,7 @@ public class Music {
 	}
 
 	public String toString(){
-		return String.format(" Song discription: %s %s %s \n Release Date:%s Singer info: %s \n",title, duration, genre, releaseDate, singer);
+		return String.format(" Song discription: %s %s %s \n Release Date:%s \n Singer info: %s ",title, duration, genre, releaseDate, singer);
 
 	}
 

@@ -8,8 +8,6 @@ public class test_drive {
 
 		System.out.println(m1);
 
-		System.out.println(m1.equals(m2.getTitle()));
-
-
+		System.out.println(" Are the two Music same: " + m1.equals(m2.getTitle()));
 	}
 }
